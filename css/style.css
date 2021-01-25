@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #707070;
+}
+header div{
+    background-color:#343a40!important;
+    color: white;
+    padding: 16px 30px;
+}
+main>h2,h4{
+    text-align: center;
+    margin: 0;
+    background-color:#343a40!important;
+    color: white;
+    padding: 16px 30px;
+}
+main>h4{
+    text-align: right;
+}
+main article{
+    padding: 16px 30px;
+    background: linear-gradient(#343a40, #707070);
+    color: honeydew;  
+}
+main article:last-child{
+    border-bottom: none;
+}
+main a, article a{
+    color: honeydew;
+}
+main article a:hover{
+    color: red;
+}
+main article p{
+    padding: 16px 40px;
+}
+main .show{
+    padding: 16px 30px;
+    background: linear-gradient(#343a40, #707070);
+}
+main .show h2,p{
+    color: honeydew;
+}
+main .show h6{
+    padding: 0px 30px;
+}
+.edit,.signUp,.add{
+    background: linear-gradient(#343a40, #707070);
+    color: white;
+    padding: 16px 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 50%;
+    text-align: center;
+    color: white;
+    
+    
+}
+.index-blog{
+    display: flex;
+    justify-content: space-between;
+}
+.pdf{
+    background: linear-gradient(#343a40, #707070);
+}
